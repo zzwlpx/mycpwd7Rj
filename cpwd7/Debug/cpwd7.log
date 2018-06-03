@@ -1,0 +1,34 @@
+﻿Build started 2016/4/15 10:50:27.
+     1>Project "E:\fileTran\cpwd7Rj\cpwd7\cpwd7.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\cpwd7.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\cpwd7.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt cpwd7.cpp
+         cpwd7.cpp
+     1>e:\filetran\cpwd7rj\cpwd7\cpwd7.cpp(50): warning C4305: '=' : truncation from 'int' to 'char'
+     1>e:\filetran\cpwd7rj\cpwd7\cpwd7.cpp(50): warning C4309: '=' : truncation of constant value
+     1>e:\filetran\cpwd7rj\cpwd7\cpwd7.cpp(59): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\filetran\cpwd7rj\cpwd7\cpwd7.cpp(66): warning C4018: '<=' : signed/unsigned mismatch
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\cpwd7.exe.embed.manifest.res" Debug\cpwd7_manifest.rc 
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\fileTran\cpwd7Rj\Debug\cpwd7.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\cpwd7.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\fileTran\cpwd7Rj\Debug\cpwd7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\fileTran\cpwd7Rj\Debug\cpwd7.lib" /MACHINE:X86 Debug\cpwd7.exe.embed.manifest.res
+         Debug\cpwd7.obj
+       Manifest:
+         Deleting file "Debug\cpwd7.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\cpwd7.exe.embed.manifest" /manifest Debug\cpwd7.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\cpwd7.exe.embed.manifest.res" Debug\cpwd7_manifest.rc 
+       LinkEmbedManifest:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\fileTran\cpwd7Rj\Debug\cpwd7.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\cpwd7.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\fileTran\cpwd7Rj\Debug\cpwd7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\fileTran\cpwd7Rj\Debug\cpwd7.lib" /MACHINE:X86 Debug\cpwd7.exe.embed.manifest.res
+         Debug\cpwd7.obj
+         cpwd7.vcxproj -> E:\fileTran\cpwd7Rj\Debug\cpwd7.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\cpwd7.unsuccessfulbuild".
+         Touching "Debug\cpwd7.lastbuildstate".
+     1>Done Building Project "E:\fileTran\cpwd7Rj\cpwd7\cpwd7.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.45
